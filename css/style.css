@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+article{
+    background-color: rgb(199, 247, 247);
+}
+nav{
+    background-color: rgb(56, 55, 55);
+}
+footer{
+    background: #e5ebeb;
+}
+a{
+    transition: 250ms ease-in-out;
+}
+li a:hover, li a:focus, a.card-link:hover, a.card-link:focus{
+    color: orange;
+}
+li a:focus, a.card-link:focus{
+    outline: transparent;
+    transform: scale(1.15);
+}
+li a:active, a.card-link:active{
+    transform: scale(0.9);
+}
+img.card-img-top{
+    height: 180px;
+    width: 286px;
+}

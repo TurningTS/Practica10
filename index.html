@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <title>Practica 10</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div class="container">
+                <h1>Mi página con Bootstrap</h1>
+                <p>
+                    Bootstrap es un framwork front-end utilizado para desarrollar aplicaciones web y sitios mobile first,
+                    o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.
+                </p>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Paterno</th>
+                            <th scope="col">Materno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Luis</td>
+                            <td>Ramos</td>
+                            <td>Gómez</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Maria</td>
+                            <td>Castro</td>
+                            <td>Lopez</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Carlos</td>
+                            <td>Sánchez</td>
+                            <td>Díaz</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 18em;">
+                            <img class="card-img-top" src="img/Compiladores.jpeg" alt="card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Compiladores</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Traductor</h6>
+                            <p class="text">
+                                Traductor que trasforma textos fuentes de lenguaje de alto nivel a lenguajes de bajo nivel,
+                                típicamente opera en fases.
+                            </p>
+                            <a href="https://es.ryte.com/wiki/Compilador" class="card-link">Mas información</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18em;">
+                            <img class="card-img-top" src="img/Contabilidad.jpeg" alt="card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Contabilidad</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Finanzas</h6>
+                            <p class="text">
+                                La contabilidad es la parte de las finanzas que estudia las distintas partidas 
+                                que reflejan los movimientos económicos.
+                            </p>
+                            <a href="https://economipedia.com/definiciones/contabilidad.html" class="card-link">Mas información</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 18em;">
+                            <img class="card-img-top" src="img/base.jpeg" alt="card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Base de datos</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">SQL</h6>
+                            <p class="text">
+                                SQL es un lenguaje de consulta, usado como interfaz para comunicarse con bases de datos y 
+                                realizar operaciones de acceso.
+                            </p>
+                            <a href="https://desarrolloweb.com/home/lenguaje-sql" class="card-link">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer class="w-100 py-4 flex-shrink-0">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h3 text-black">Ubicación</h5>
+                        <p class="text-muted">Tuxtla Gutiérrez, Chiapas</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h3 text-black">Contacto</h5>
+                        <p class="text-muted"><em><ins>pedro.rodriguez39@unach.mx</ins></em></p>
+                        <form action="#">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="text" placeholder="Registro" aria-label="Registro" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2" type="button" onclick="alert('Registrado')">Enter</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h3 text-blak mb-3">Autor</h5>
+                        <p class="text-muted"><em>Pedro de Jesús Rodríguez Vázquez</em></p>
+                        <p class="text-muted">&copy; Copyright 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
